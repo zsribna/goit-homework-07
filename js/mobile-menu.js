@@ -7,7 +7,8 @@
     const isMenuOpen =
       openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
     openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
-    mobileMenu.classList.toggle('is-open');
+		mobileMenu.classList.toggle('is-open');
+		document.body.classList.toggle('mobile-menu-open');
 
     const scrollLockMethod = !isMenuOpen
       ? 'disableBodyScroll'
