@@ -722,7 +722,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .footer-logo-group {
         margin-right: auto;
         margin-left: auto;
-        }
+        margin-bottom: 72px;
+    }
     .footer_social_title {
         text-align: center;
     }
